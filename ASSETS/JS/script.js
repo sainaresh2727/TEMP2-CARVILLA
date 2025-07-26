@@ -1,7 +1,7 @@
 let Datas=[
     {
         id:1,
-        img:"/ASSETS/IMAGES/FeatImg1.png",
+        img:"./ASSETS/IMAGES/FeatImg1.png",
         modal:"2017 3100 MI 240HP",
         automatic:"Automatic",
         name:"BMW 6-Series Gran Coupe",
@@ -10,7 +10,7 @@ let Datas=[
         category:"Fcars"
     },
     {
-        img:"/ASSETS/IMAGES/FeatImg2.png",
+        img:"./ASSETS/IMAGES/FeatImg2.png",
         id:2,
         modal:"2017 3100 MI 240HP",
         automatic:"Automatic",
@@ -20,7 +20,7 @@ let Datas=[
         category:"Fcars"
     },
     {
-        img:"/ASSETS/IMAGES/FeatImg3.png",
+        img:"./ASSETS/IMAGES/FeatImg3.png",
         id:3,
         modal:"2017 3100 MI 240HP",
         automatic:"Automatic",
@@ -30,7 +30,7 @@ let Datas=[
         category:"Fcars"
     },
     {
-        img:"/ASSETS/IMAGES/FeatImg4.png",
+        img:"./ASSETS/IMAGES/FeatImg4.png",
         id:4,
         modal:"2017 3100 MI 240HP",
         automatic:"Automatic",
@@ -40,7 +40,7 @@ let Datas=[
         category:"Fcars"
     },
     {
-        img:"/ASSETS/IMAGES/FeatImg51.png",
+        img:"./ASSETS/IMAGES/FeatImg51.png",
         id:5,
         modal:"2017 3100 MI 240HP",
         automatic:"Automatic",
@@ -50,7 +50,7 @@ let Datas=[
         category:"Fcars"
     },
     {
-        img:"/ASSETS/IMAGES/FeatImg6.png",
+        img:"./ASSETS/IMAGES/FeatImg6.png",
         id:6,
         modal:"2017 3100 MI 240HP",
         automatic:"Automatic",
@@ -60,7 +60,7 @@ let Datas=[
         category:"Fcars"
     },
     {
-        img:"/ASSETS/IMAGES/FeatImg7.png",
+        img:"./ASSETS/IMAGES/FeatImg7.png",
         id:7,
         modal:"2017 3100 MI 240HP",
         automatic:"Automatic",
@@ -70,7 +70,7 @@ let Datas=[
         category:"Fcars"
     },
     {
-        img:"/ASSETS/IMAGES/FeatImg5.png",
+        img:"./ASSETS/IMAGES/FeatImg5.png",
         id:8,
         automatic:"Automatic",
         modal:"2017 3100 MI 240HP",
@@ -81,7 +81,7 @@ let Datas=[
     },
     {
         id:9,
-        img:"/ASSETS/IMAGES/Client1.png",
+        img:"./ASSETS/IMAGES/Client1.png",
         name:"Alixa Bliss",
         description:"The quality exceeded my expectations. Fast delivery and great packaging — will definitely order again!",
         place:"Washington",
@@ -89,7 +89,7 @@ let Datas=[
     },
     {
         id:10,
-        img:"/ASSETS/IMAGES/Client2.png",
+        img:"./ASSETS/IMAGES/Client2.png",
         name:"Roman Reings",
         description:"“I was able to test drive multiple models before deciding. The sales team was friendly and never pushed me. Highly recommended!",
         place:"JosenBerg",
@@ -97,7 +97,7 @@ let Datas=[
     },
     {
         id:11,
-        img:"/ASSETS/IMAGES/Client3.png",
+        img:"./ASSETS/IMAGES/Client3.png",
         name:"John Cena",
         description:"Got my dream car at an unbeatable price. The EMI options were flexible, and the sales process was completely hassle-free",
         place:"Londan",
