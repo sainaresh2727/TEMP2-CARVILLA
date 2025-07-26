@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARVILLA-REPLICA</title>
+    <!-- =======LINKING HTML WITH CSS======== -->
+     <link rel="stylesheet" href="./ASSETS/CSS/style.css">
+     
+<!--=======BOOTSTRAP CDN LINK=======-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- ==============FONT AWESOME CDN LINK========= -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- ===========HEADER NAVBAR STARTS============= -->
+<header class="container-fluid" id="HeaderParent"> 
+<div class="container" id="HeaderContainer">
+
+<div class="Brand">
+<button class="navbar-toggler d-lg-none d-block" data-bs-toggle="offcanvas" data-bs-target="#OffCanvas">
+<span class="navbar-toggler-icon"></span>
+</button>
+<h5 id="BrandName">CARVILLA</h5>
+</div>
+
+<!-- ONLY VISIBLE FOR LARGE SCREENS -->
+<div class="Menus d-none d-lg-block">
+<ul class="mb-0 d-flex gap-5 align-items-center list-unstyled">
+<li><a href="">HOME</a></li>
+<li><a href="">SERVICE</a></li>
+<li><a href="">FEATURED CARS</a></li>
+<li><a href="">NEW CARS</a></li>
+<li><a href="">BRANDS</a></li>
+<li><a href="">CONTACT</a></li>
+</ul>
+</div>
+</div>
+
+<!-- OFFCANVAS FOR SMAL SCREENS -->
+<div class="offcanvas offcanvas-start" id="OffCanvas">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title"></h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="list-unstyled d-flex flex-column gap-5" id="SmlMenus">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">SERVICES</a></li>
+      <li><a href="#">FEATURED CARS</a></li>
+      <li><a href="#">NEW CARS</a></li>
+      <li><a href="#">BRANDS</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+  </div>
+</div>
+</header>
+<!-- ===========HEADER NAVBAR ENDS============= -->
+<!-- ==========BACKGROUND BG STARTS=============== -->
+<section class="container-fluid" id="BgParent">
+<div class="container" id="BgContainer">
+<div class="" id="BgContent">
+<h4>GET YOUR DESIRED CARS IN REASONABLE PRICE</h4>
+<h5>Explore our wide range of cars with unbeatable offers, trusted service, and the best value for your budget</h5>
+<button id="Btn-1">BUY NOW</button>
+</div>
+</div>
+</section>
+<!-- ==========BACKGROUND BG ENDS=============== -->
+ <!--=========SEARCH DIV STARTS=================-->
+ <section class="container-fluid" id="SelectParent">
+ <div class="container d-lg-flex d-none" id="SearchContainer">
+ 
+ <div class="one">
+ 
+<div class="select11">
+ <p>Select Year</p>
+ <select name="" id="" class="Select">
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+ </select>
+ </div>
+
+ <div class="select11">
+ <p>Select Make</p>
+ <select name="" id="" class="Select">
+<option value="">Toyota</option>
+<option value="">Holden</option>
+<option value="">maecedes-benz.</option>
+
+ </select>
+ </div>
+ </div>
+
+ <div class="one">
+ 
+<div class="select11">
+ <p>Select Modal</p>
+ <select name="" id="" class="Select">
+<option value="">Kia-Ria</option>
+<option value="">Mitsubishi</option>
+<option value="">Ford</option>
+</select>
+ </div>
+
+ <div class="select11">
+ <p>Body Style</p>
+ <select name="" id="" class="Select">
+<option value="">Sedan</option>
+<option value="">Van</option>
+<option value="">Roadser</option>
+
+ </select>
+ </div>
+ </div>
+
+ <div class="one">
+ 
+<div class="select11">
+ <p>Select Year</p>
+ <select name="" id="" class="Select">
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+ </select>
+ </div>
+
+ <div class="select11">
+ <p>Select Price</p>
+ <select name="" id="" class="Select">
+<option value="">90,000</option>
+<option value="">80,000</option>
+<option value="">1,50,000</option>
+<option value="">70,000</option>
+ </select>
+ </div>
+ </div>
+
+ <div class="d-flex align-items-center">
+    <button id="Btn-2">SEARCH</button>
+ </div>
+</div>
+<div class="container d-flex d-lg-none" id="Selectsml">
+
+<div class="selectOne">
+<p>Select Year</p>
+<select name="" id="" class="SelectSmlCon">
+<option value="" selected>2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+</select>
+</div>
+
+<div class="selectOne">
+<p>Select Year</p>
+<select name="" id="" class="SelectSmlCon">
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+</select>
+</div>
+
+<div class="selectOne">
+<p>Select Year</p>
+<select name="" id="" class="SelectSmlCon">
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+</select>
+</div>
+
+<div class="selectOne">
+<p>Select Year</p>
+<select name="" id="" class="SelectSmlCon">
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+</select>
+</div>
+
+<div class="selectOne">
+<p>Select Year</p>
+<select name="" id="" class="SelectSmlCon">
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+</select>
+</div>
+
+<div class="selectOne">
+<p>Select Year</p>
+<select name="" id="" class="SelectSmlCon">
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+<option value="">2019</option>
+</select>
+</div>
+
+<div style="margin: 0px auto;">
+    <button id="btn3">SEARCH</button>
+</div>
+
+</div>
+ </section>
+ <!--=========SEARCH DIV ENDS=================-->
+ <!--==========CARD 1 STARTS================== -->
+ <section class="container-fluid pb-5">
+  <h3 class="text-center">OUR SERVICES</h3>
+ <div class="container">
+ <div class="row">
+ 
+<div class="col-lg-4 col-12 mt-3">
+<div class="card text-center CardParent">
+<div class="card-body p-5 CardBody">
+<i class="fa-solid fa-car Car"></i>
+<h5>Largest Dealership of Car</h5>
+<p>Our Company is proud to be recognized as the largest and most trusted car dealership in the region. With a wide selection of new, used, and luxury vehicles.</p>
+<div class="hr"></div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-12 mt-3">
+<div class="card text-center CardParent">
+<div class="card-body p-5 CardBody">
+<i class="fa-solid fa-screwdriver-wrench Car"></i>
+<h5>Unlimited Repair Warrenty</h5>
+<p>Unlimited repairs on covered parts for the duration of the warranty Includes engine, transmission, suspension, electrical systems, and more</p>
+<div class="hr"></div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-12 mt-3">
+<div class="card text-center CardParent">
+<div class="card-body p-5 CardBody">
+<i class="fa-solid fa-shield-halved Car"></i>
+<h5>Unlimited Repair Warrenty</h5>
+<p>Unlimited time & mileage coverage on key vehicle components Protection for engine, transmission, drivetrain, suspension, electrical systems, and more
+</p>
+<div class="hr"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+ <!--==========CARD 1 ENDS================== -->
+ <!--=========NEWEST CAR STARTS============= -->
+
+<div class="container-fluid mb-5">
+  <p class="text-center">CHECKOUT THE NEW LATEST CARS</p> 
+  <h2 class="text-center">Newest Cars</h2>
+
+  <div id="carouselExample" class="carousel slide mt-5">
+
+   
+    <div class="carousel-indicators" id="Indicators">
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+    </div>
+
+    
+  <div class="carousel-inner">
+  <div class="carousel-item active">
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-6 col-12 CarImages">
+  <img src="./ASSETS/IMAGES/NewCarimg1.png" alt="" height="220px">
+  </div>
+  <div class="col-lg-6 col-12 mt-5 mt-lg-0 CarDetails">
+  <h4>Chevrolet Camaro ZA100</h4>
+  <p>The Chevrolet Camaro ZL1 is a high-performance American muscle car that blends raw power with advanced engineering. Under the hood, it boasts a supercharged 6.2-liter LT4 V8 engine producing an impressive 650 horsepower and 650 lb-ft of torque, delivering blistering acceleration and track-ready performanc.</p>
+  <button class="Btn-5">VIEW DETAILS</button>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  <div class="carousel-item">
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-6 col-12 CarImages">
+  <img src="./ASSETS/IMAGES/NewCarimg2.png" alt="" height="220px">
+  </div>
+  <div class="col-lg-6 col-12 mt-5 mt-lg-0 CarDetails ">
+  <h4>BMW Series-3 Wagon</h4>
+  <p>The Chevrolet Camaro ZL1 is a high-performance American muscle car that blends aggressive styling with cutting-edge engineering. Powered by a supercharged 6.2-liter V8 engine delivering an exhilarating 650 horsepower, the ZL1 offers track-ready performance while remaining street-legal and daily-drivable.</p>
+  <button class="Btn-5">VIEW DETAILS</button>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  <div class="carousel-item">
+  <div class="container">
+   <div class="row">
+   <div class="col-lg-6 col-12 CarImages">
+   <img src="./ASSETS/IMAGES/NewCarimg3.png" height="220px" alt="">
+   </div>
+   <div class="col-lg-6 col-12 mt-5 mt-lg-0 CarDetails">
+    <h4>Ferrari 488 Super Fast</h4>
+    <p>The Ferrari 488 GTB is a bold redefinition of performance—Ferrari’s first mid-engined turbo‑V8 since the F40, combining ferocious power with refined agility. At its core lies a 3.9-liter twin-scroll twin-turbo F154 V8 engine, generating 670 PS (≈661 hp) at 8,000 rpm and a massive 760 Nm (≈561 lb-ft) of torque from just 3,000 rpm—both industry-leading for its time </p>
+   <button class="Btn-5">VIEW DETAILS</button>
+   </div>
+   </div>
+  </div>
+  </div>
+  
+</div>
+</div>
+</div>
+<!--=========NEWEST CAR ENDS============= -->
+<!--=========FEATURED CARS CART STARTS=========-->
+<section class="container-fluid" id="FeaturedCarsHeader">
+<div class="text-center">
+<p>Check Out The Featured Cars</p>
+<h2>Featured Cars</h2>
+<div id="hrLine2"></div>
+</div>
+<div class="container">
+<div class="row mt-5" id="FeatureCars">
+
+
+
+
+</div>
+</div>
+</section>
+<!--=========FEATURED CARS CART ENDS==========-->
+ <!--=======CLIENTS STARTS=====================-->
+ <section class="container-fluid pb-5">
+<div class="text-center">
+<h3>What Our Client Says</h3>
+<div id="hrLine2"></div>
+</div>
+ <div class="container">
+ <div class="row" id="Client">
+ 
+ </div>
+ </div>
+ </section>
+ <!--=======CLIENTS ENDS=====================-->
+ <!--========TOP BRANDS STARTS==================-->
+ <section class="container-fluid pb-5">
+  <div class="text-center">
+ <h4>OUR TOP BRANDS</h4>
+ <div id="hrLine2"></div>
+  </div>
+ <div class="container" id="TopBrandsContainer">
+ <div id="TopBrands" class="mt-5">
+ <img src="./ASSETS/IMAGES/Brand1.png" alt="">
+ <img src="./ASSETS/IMAGES/Brand2.png" alt="">
+ <img src="./ASSETS/IMAGES/Brand3.png" alt="">
+ <img src="./ASSETS/IMAGES/Brand4.png" alt="">
+ <img src="./ASSETS/IMAGES/Brand5.png" alt="">
+ <img src="./ASSETS/IMAGES/Brand6.png" alt="">
+ </div>
+ </div>
+ </section>
+ <!--========TOP BRANDS ENDS==================-->
+ <!--=========FOOTER STARTS=================== -->
+ <section class="container-fluid mt-5 p-5" id="FooterParent">
+ <div class="container">
+ <div class="row">
+ <div class="col-lg-3 col-12 FooterCol mt-3 mt-lg-0">
+  <h4 class="FooterBrand text-primary">CARVILLA</h4>
+  <p>Explore our wide range of cars with unbeatable offers, trusted service, and the best value for your budget</p>
+  <p>SaiNaresh@gmail.com</p>
+  <p>1234567891</p>
+ </div>
+ <div class="col-lg-2 col-12 FooterCol mt-3 mt-lg-0">
+  <h6 class="text-primary">ABOUT DEVLOON</h6>
+  <p>About US</p>
+  <p>Career</p>
+  <p>Terms Of Service</p>
+  <p>Privacy Policy</p>
+ </div>
+ <div class="col-lg-4 col-12 mt-3 mt-lg-0 FooterCol">
+  <h6 class="text-primary">TOP BRANDS</h6>
+  <div class="d-flex gap-5">
+   <div>
+  <p>BMW</p>
+  <p>lamborghini</p>
+  <p>Camaro</p>
+  <p>Audi</p>
+  <p>Infiniti</p>
+  <p>Nissan</p>
+  </div>
+  <div>
+  <p>Ferrai</p>
+  <p>Porche</p>
+  <p>Land Rover</p>
+  <p>Aston Martin</p>
+  <p>Mersedes</p>
+  <p>Opel</p>
+  </div>
+  </div>
+ </div>
+ <div class="col-lg-3 col-12 FooterCol mt-3 mt-lg-0">
+  <h6 class="text-primary">NEWS LETTER</h6>
+  <p>Subscribe To get Latest News Updates and Information</p>
+  <input type="text" name="" id="InputFooter" placeholder="Add Email">
+ </div>
+ </div>
+ </div>
+ </section>
+ <!--=========FOOTER ENDS=================== -->
+</body>
+<!-- =========LINKING HTML WITH JS========== -->
+ <script src="./ASSETS/JS/script.js"></script>
+</html>

@@ -1,0 +1,322 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+/* ==============HEADER NAVBAR CSS STARTS======== */
+#HeaderParent{
+    background-color: transparent;
+    padding: 30px 12px;
+    position: fixed;
+    z-index: 10;
+}
+
+#HeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-toggler-icon{
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='red' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");}
+#BrandName{
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 8px;
+    margin: auto 0px;
+}
+.Brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Menus a{
+    color: white;
+    text-decoration: none;
+}
+#SmlMenus a{
+    text-decoration: none;
+    color: black;
+}
+/* ==============HEADER NAVBAR CSS ENDS======== */
+/* ==============BG CSS STARTS================== */
+#BgParent{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../IMAGES/Bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    
+    
+}
+#BgContainer{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#BgContent{
+    position: absolute;
+    top: 28%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#BgContent h4{
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+#BgContent h5{
+    color: white;
+    margin: 0px auto;
+    width: 700px;
+    line-height: 40px;
+    text-align: center;
+}
+#Btn-1{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 25px 80px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+@media (max-width:768px) {
+    #BgContent{
+    position: absolute;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#BgContent{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+    #BgContent h4{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+#BgContent h5{
+    color: white;
+    margin: 0px auto;
+    width: 400px;
+    line-height: 28px;
+    text-align: center;
+}
+}
+/* ==============BG CSS ENDS================== */
+/* =============SEARCH CSS STARTS============ */
+#SelectParent{
+    position: relative;
+    bottom: 140px;
+}
+#SearchContainer{
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 70px;
+}
+.Select{
+    background-color: aqua;
+    padding: 20px 25px;
+    width: 180px;
+    background-color: #f8f8f8;
+    border: none;
+    
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#Btn-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 20px 55px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+#Selectsml{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0px 0px 10px grey;
+    background-color: white;
+    padding: 40px;
+}
+.SelectSmlCon{
+    width: 100%;
+    background-color:#f8f8f8;
+    height: 40px;
+    padding: 25px 10px;
+    border: none;
+}
+@media (max-width:768px) {
+    #SelectParent{
+    position: relative;
+    bottom: 190px;
+}
+#btn3
+{
+    height: 50px;
+    width: 170px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+}
+
+/* =============SEARCH CSS ENDS============ */
+/* =============CARD 1  CSS STARTS================ */
+.Car{
+    font-size: 50px;
+}
+.CardBody{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.CardParent{
+    transition: 2s;
+}
+.CardParent:hover{
+    background-color: blue;
+    color: white;
+}
+.CardBody p{
+    text-align: justify;
+}
+.hr{
+    height: 3px;
+    width: 30px;
+    background-color: blue;
+    margin: 0px auto;
+}
+/* =============CARD 1  CSS ENDS================ */
+/* ===============NEWEST CAR CSS STARTS=========== */
+.CarDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.CarDetails p{
+    line-height: 30px;
+}
+.Btn-5{
+    height: 40px;
+   background-color: #7d7de7;
+   color: white;
+    width: 180px;
+    border: none;
+    padding: 25px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 2s;
+}
+.Btn-5:hover{
+    background-color: blue;
+}
+#Indicators button{
+    background-color: aqua;
+    position: relative;
+    top: 70px;
+    
+}
+@media (max-width:768px) {
+    .CarImages img{
+        height: 120px;
+    }
+   
+}
+/* ===============NEWEST CAR CSS ENDS=========== */
+/* ===============FEATURED CARS CSS STARTS======== */
+#FeaturedCarsHeader{
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+#hrLine2{
+    width: 95px;
+    background-color: blue;
+    height: 2px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+#FcarsCol p{
+    color: grey;
+}
+/* ===============FEATURED CARS CSS ENDS======== */
+/* ================CLIENT CSS STARTS============= */
+#ClientCB{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#ClientCB img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin: 0px auto;
+}
+#ClientCard{
+    transition: 2s;
+}
+#ClientCard:hover{
+    background-color: blue;
+    color: white;
+}
+/* ================CLIENT CSS ENDS============= */
+/* ===============TOP BRANDS CSS STARTS========= */
+#TopBrands{
+    display: flex;
+    justify-content: space-between;
+}
+.hrLine4{
+    height: 2px;
+    width: 90px;
+    background-color: blue;
+}
+@media (max-width:768px) {
+   #TopBrands{
+    display: flex;
+    gap: 70px;
+    overflow-x: auto;
+} 
+}
+/* ===============TOP BRANDS CSS ENDS========= */
+/* ===============FOOTER CSS STARTS============ */
+#FooterParent{
+    background-color: #2a2d54;
+    color: white;
+}
+.FooterCol{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.FooterBrand{
+    letter-spacing: 6px;
+}
+#InputFooter{
+    background-color: #26294d;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 20px;
+}
+/* ===============FOOTER CSS ENDS============ */
